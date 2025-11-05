@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
   (function typedEffect() {
     const typedEl = document.getElementById('typed');
     if (!typedEl) return;
-    const words = ['I build interfaces.', 'I craft pixel-perfect UIs.', 'I make websites feel alive.'];
+    const words = ['I build interfaces.', 'I make websites feel alive.'];
     let w = 0, i = 0, forward = true;
     function tick(){
       const current = words[w];
