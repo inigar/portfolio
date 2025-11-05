@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Ragini Rajpoot</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Ragini<span class="dot">.</span></a>
+
+      <nav id="nav" class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="contact.html" class="nav-link cta">Contact</a>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container reveal">
+      <h1>Projects</h1>
+      <p class="lead">A selection of projects I've built — click any card to view details (links are placeholders).</p>
+
+      <div class="grid projects-grid">
+        <!-- Repeatable project card -->
+        <article class="project-card reveal">
+          <div class="project-thumb big"></div>
+          <div class="project-body">
+            <h3>ArtShop — UI & Cart interactions</h3>
+            <p>Responsive product gallery with add-to-cart animations and localStorage persistence.</p>
+            <div class="project-tags"><span>React</span><span>Animations</span></div>
+            <a class="link" href="#">View demo →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb big"></div>
+          <div class="project-body">
+            <h3>Drawing Marketplace</h3>
+            <p>Search & filter UI for selling art online. Focus on product listing UX.</p>
+            <div class="project-tags"><span>Vanilla JS</span><span>Accessibility</span></div>
+            <a class="link" href="#">View demo →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb big"></div>
+          <div class="project-body">
+            <h3>Blog Theme</h3>
+            <p>Clean typographic theme optimized for reading on all devices.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+            <a class="link" href="#">View demo →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year3"></span> Ragini — Projects</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
