@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Ragini Rajpoot</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Ragini<span class="dot">.</span></a>
+
+      <nav id="nav" class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link active cta">Contact</a>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container reveal">
+      <div class="contact-grid">
+        <div>
+          <h1>Let's talk</h1>
+          <p class="lead">Have a project in mind or need help with a website? Send a message and I'll reply soon.</p>
+
+          <div class="contact-cards">
+            <div class="glass contact-card">
+              <strong>Email</strong>
+              <a href="mailto:raginirajpoot18@gmail.com">raginirajpoot18@gmail.com</a>
+            </div>
+            <div class="glass contact-card">
+              <strong>Location</strong>
+              <p>India 🇮🇳</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass" id="contactForm" action="mailto:raginirajpoot18@gmail.com" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input type="text" name="name" required placeholder="Your name">
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required placeholder="you@example.com">
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+          </label>
+
+          <div style="display:flex;gap:.5rem;align-items:center;">
+            <button class="btn" type="submit">Send</button>
+            <button class="btn ghost" type="reset">Reset</button>
+            <small style="opacity:.7">Or email me: <a href="mailto:raginirajpoot18@gmail.com">raginirajpoot18@gmail.com</a></small>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year4"></span> Ragini — Contact</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
